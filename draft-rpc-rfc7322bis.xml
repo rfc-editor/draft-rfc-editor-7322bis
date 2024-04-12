@@ -660,7 +660,7 @@ the RFC and publish both documents simultaneously.</t>
              <eref target="https://www.rfc-editor.org/info/rfc6429">&gt;https://www.rfc-editor.org/info/rfc6429 &lt;</eref>.</t>
           </section>
           <section anchor="referencing-stds-and-bcps" toc="default">
-            <name>Referencing RFC(s) in a Subseries (STDs, BCPs, and FYIs</name>
+            <name>Referencing RFC(s) in a Sub-series (STDs, BCPs, and FYIs</name>
             <t>Internet Standards (STDs) and Best Current Practices (BCPs) may consist of
 a single RFC or multiple RFCs.  Authors should carefully consider whether they
 want to point the reader to the specific RFC or the sub series group.  In the
@@ -673,41 +673,59 @@ group, the reference entry should include ALL of the RFCs comprising that
 sub-series in a reference grouping under a single citation tag [is it helpful to
 point them to 7991 or the like on how to do this here?].  The authors should
 refer to the specific RFC numbers as part of the text in the body of the
-document and cite the sub series number (for example, "see RFC 2026 of
-[BCP9]").  Inclusion of the URI to the STD or BCP info page (see Section 3.2.3
-of [RFC5741]) is recommended.  The text should appear as follows:</t>
-            <t>See RFC 1034 [STD13].</t>
+document and cite the sub-series number (for example, "see RFC 2026 of
+[BCP9]").  The URI to the STD or BCP info page (see Section 3.2.3 of [RFC5741]) is to be included. The text should appear as follows:</t>
+            <t indent="3">See RFC 3552 [BCP72].</t>
             <t>For an STD or BCP that contains one RFC:</t>
-            <t>[STDXXX]  Last name, First initial., Ed. (if applicable), "RFC
-             Title", Stream, Sub-series number, RFC number, RFC DOI, Date of
-             publication, <eref target="https://www.rfc-editor.org/info/std#">&lt;https://www.rfc-editor.org/info/std#&gt;</eref>.</t>
+            <t indent="3">[STDXXX]  Internet Standard XXX,                              
+<eref
+target="https://www.rfc-editor.org/info/std#">&lt;https://www.rfc-editor.org/info/std#&gt;</eref>. At the time of writing, this STD comprises the following:</t>
+<t indent="3">              Last name, First initial., Ed. (if applicable), "RFC        
+             Title", Stream, Sub-series number, RFC number, RFC DOI, Date of             
+             publication, <eref                                                         
+target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc#&gt;</eref>.</t>
+
             <t>Example:</t>
-            <t>[STD72]   Gellens, R. and J. Klensin, "Message Submission
-             for Mail", IETF, STD 72, RFC 6409, DOI 10.17487/RFC6409, November 2011,
-             <eref target="https://www.rfc-editor.org/info/std72">&lt;https://www.rfc-editor.org/info/std72&gt;</eref>.</t>
+            <t indent="3">[STD80]   Internet Standard 80,                               
+              <eref                                                                     
+target="https://www.rfc-editor.org/info/std80">&lt;https://www.rfc-editor.org/info/std80&gt;</eref>.                                                                           
+              At the time of writing, this STD comprises the following:</t>
+<t indent="3">                                                                          
+              Cerf, V., "ASCII format for network interchange", STD 80,                 
+              RFC 20, DOI 10.17487/RFC0020, October 1969,                               
+              <eref                                                                     
+target="https://www.rfc-editor.org/info/rfc20">&lt;https://www.rfc-editor.org/info/rfc20&gt;</eref>.</t>
+
             <t>For an STD or BCP that contains two or more RFCs:</t>
-            <t>[STDXXX]  Last name, First initial., Ed. (if applicable),
-             "RFC Title", Stream, Sub-series number, RFC number, RFC DOI, Date
-             of publication.</t>
-            <artwork name="" type="" align="left" alt=""><![CDATA[
-         Last name, First initial., Ed. (if applicable)
-         and First initial. Last name, Ed. (if applicable),
-         "RFC Title", Stream, Sub-series number, RFC number, RFC DOI,
-         Date of publication.
 
-         <https://www.rfc-editor.org/info/std#>
-]]></artwork>
+            <t indent="3">[BCPXXX]  Best Current Practice XXX, <eref
+target="https://www.rfc-editor.org/info/bcp#">&lt;https://www.rfc-editor.org/info/bcp#&gt;</eref>.                                                                             
+            At the time of writing, this BCP comprises the following:</t>
+<t indent="3">      Last name, First initial., Ed. (if applicable),                     
+             "RFC Title", Stream, Sub-series number, RFC number, RFC DOI, Date           
+             of publication, <eref                                                      
+target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc#&gt;</eref>.</t>
+<t indent="3">      Last name, First initial., Ed. (if applicable),                     
+             "RFC Title", Stream, Sub-series number, RFC number, RFC DOI, Date           
+             of publication, <eref                                                      
+target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc#&gt;</eref>.</t>
+		  
             <t>Example:</t>
-<artwork name="" type="" align="left" alt=""><![CDATA[
-    [STD13]   Mockapetris, P., "Domain names - concepts and facilities", 
-              IETF, STD 13, RFC 1034, DOI 10.17487/RFC1034, November 1987.
-           
-              Mockapetris, P., "Domain names - implementation and 
-              specification", IETF, STD 13, RFC 1035, DOI 10.17487/RFC1035, 
-              November 1987.
+<t indent="3">[BCP72]    Best Current Practice 72, <eref                                
+target="https://www.rfc-editor.org/info/bcp72">&lt;https://www.rfc-editor.org/info/bcp72&gt;</eref>.                                                                           
+              At the time of writing, this BCP comprises the following:</t>
 
-              <https://www.rfc-editor.org/info/std13>
-]]></artwork>
+<t indent="3">Rescorla, E. and B. Korver, "Guidelines for Writing RFC Text on           
+              Security Considerations", BCP 72, RFC 3552,                               
+              DOI 10.17487/RFC3552, July 2003,                                          
+              <eref                                                                     
+target="https://www.rfc-editor.org/info/rfc3552">&lt;https://www.rfc-editor.org/info/rfc3552&gt;</eref>.</t>
+<t indent="3">Gont, F. and I. Arce, "Security Considerations for Transient              
+              Numeric Identifiers Employed in Network Protocols", BCP 72,               
+              RFC 9416, DOI 10.17487/RFC9416, July 2023,                                
+              <eref                                                                     
+target="https://www.rfc-editor.org/info/rfc9416">&lt;https://www.rfc-editor.org/info/rfc9416&gt;</eref>.</t>
+
             <t>Note - some RFCs contain an FYI sub-series number <xref target="FYI90" format="default"/> however, the FYI
 series was ended by RFC 6360.  RFCs that were published with an FYI sub-series
 number and still maintain the FYI number must include the sub-series number in
@@ -923,6 +941,7 @@ information in the Author's Address section.</t>
       repositories</li>
         <li>-03 to -04: updated Reference Section guidance; added information on alt text</li>
         <li>-04 to -05: change author, add acknowledgement</li>
+	      <li>not yet posted as new version: updated description regarding how to reference RFCs that are part of a sub-series.</li>
       </ul>
     </section>
   </middle>
