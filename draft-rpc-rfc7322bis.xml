@@ -624,7 +624,7 @@ the RFC and publish both documents simultaneously.</t>
   authors in the list.</t>
             <t>For one author or editor:</t>
             <t>[RFCXXXX] Last name, First initial., Ed. (if applicable),
-             "RFC Title", Stream, Sub-series number (if applicable),
+             "RFC Title", Stream, Subseries number (if applicable),
              RFC number, RFC DOI, Date of publication,
              <eref target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc#&gt;</eref>.</t>
             <t>Example:</t>
@@ -638,7 +638,7 @@ the RFC and publish both documents simultaneously.</t>
             <t>For two authors or editors:</t>
             <t>[RFCXXXX] Last name, First initial., Ed. (if applicable)
              and First initial. Last name, Ed. (if applicable),
-             "RFC Title", Stream, Sub-series number (if applicable),
+             "RFC Title", Stream, Subseries number (if applicable),
              RFC number, RFC DOI, Date of publication,
              <eref target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc#&gt;</eref>.</t>
             <t>Example:</t>
@@ -650,7 +650,7 @@ the RFC and publish both documents simultaneously.</t>
             <t>[RFCXXXX] Last name, First initial., Ed. (if applicable),
              Last name, First initial., Ed. (if applicable),
              and First initial. Last name, Ed. (if applicable),
-             "RFC Title", Stream, Sub-series number (if applicable),
+             "RFC Title", Stream, Subseries number (if applicable),
              RFC number, RFC DOI, Date of publication,
              <eref target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc#&gt;</eref>.</t>
             <t>Example:</t>
@@ -660,7 +660,7 @@ the RFC and publish both documents simultaneously.</t>
              <eref target="https://www.rfc-editor.org/info/rfc6429">&gt;https://www.rfc-editor.org/info/rfc6429 &lt;</eref>.</t>
           </section>
           <section anchor="referencing-stds-and-bcps" toc="default">
-            <name>Referencing RFC(s) in a Sub-series (STDs, BCPs, and FYIs</name>
+            <name>Referencing RFC(s) in a Subseries (STDs, BCPs, and FYIs</name>
             <t>Internet Standards (STDs) and Best Current Practices (BCPs) may consist of
 a single RFC or multiple RFCs.  Authors should carefully consider whether they
 want to point the reader to the specific RFC or the sub series group.  In the
@@ -670,10 +670,10 @@ for example, the citation tag, even in cases where the sub series currently
 contains only one RFC.</t>
             <t>When an STD or BCP that contains multiple RFCs is referenced as a sub series
 group, the reference entry should include ALL of the RFCs comprising that
-sub-series in a reference grouping under a single citation tag [is it helpful to
+subseries in a reference grouping under a single citation tag [is it helpful to
 point them to 7991 or the like on how to do this here?].  The authors should
 refer to the specific RFC numbers as part of the text in the body of the
-document and cite the sub-series number (for example, "see RFC 2026 of
+document and cite the subseries number (for example, "see RFC 2026 of
 [BCP9]").  The URI to the STD or BCP info page (see Section 3.2.3 of [RFC5741]) is to be included. The text should appear as follows:</t>
             <t indent="3">See RFC 3552 [BCP72].</t>
             <t>For an STD or BCP that contains one RFC:</t>
@@ -681,7 +681,7 @@ document and cite the sub-series number (for example, "see RFC 2026 of
 <eref
 target="https://www.rfc-editor.org/info/std#">&lt;https://www.rfc-editor.org/info/std#&gt;</eref>. At the time of writing, this STD comprises the following:</t>
 <t indent="3">              Last name, First initial., Ed. (if applicable), "RFC        
-             Title", Stream, Sub-series number, RFC number, RFC DOI, Date of             
+             Title", Stream, Subseries number, RFC number, RFC DOI, Date of             
              publication, <eref                                                         
 target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc#&gt;</eref>.</t>
 
@@ -702,11 +702,11 @@ target="https://www.rfc-editor.org/info/rfc20">&lt;https://www.rfc-editor.org/in
 target="https://www.rfc-editor.org/info/bcp#">&lt;https://www.rfc-editor.org/info/bcp#&gt;</eref>.                                                                             
             At the time of writing, this BCP comprises the following:</t>
 <t indent="3">      Last name, First initial., Ed. (if applicable),                     
-             "RFC Title", Stream, Sub-series number, RFC number, RFC DOI, Date           
+             "RFC Title", Stream, Subseries number, RFC number, RFC DOI, Date           
              of publication, <eref                                                      
 target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc#&gt;</eref>.</t>
 <t indent="3">      Last name, First initial., Ed. (if applicable),                     
-             "RFC Title", Stream, Sub-series number, RFC number, RFC DOI, Date           
+             "RFC Title", Stream, Subseries number, RFC number, RFC DOI, Date           
              of publication, <eref                                                      
 target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc#&gt;</eref>.</t>
 		  
@@ -726,13 +726,13 @@ target="https://www.rfc-editor.org/info/rfc3552">&lt;https://www.rfc-editor.org/
               <eref                                                                     
 target="https://www.rfc-editor.org/info/rfc9416">&lt;https://www.rfc-editor.org/info/rfc9416&gt;</eref>.</t>
 
-            <t>Note - some RFCs contain an FYI sub-series number <xref target="FYI90" format="default"/> however, the FYI
-series was ended by RFC 6360.  RFCs that were published with an FYI sub-series
-number and still maintain the FYI number must include the sub-series number in
+            <t>Note - some RFCs contain an FYI subseries number <xref target="FYI90" format="default"/> however, the FYI
+series was ended by RFC 6360.  RFCs that were published with an FYI subseries
+number and still maintain the FYI number must include the subseries number in
 the reference and may otherwise be treated in the same manner as STDs and
 BCPs.</t>
             <t>Grouping references to RFCs or other materials that are not part of a
-   sub-series is discouraged.</t>
+   subseries is discouraged.</t>
           </section>
           <section anchor="referencing-internet-drafts" toc="default">
             <name>Referencing Internet-Drafts</name>
@@ -937,11 +937,11 @@ information in the Author's Address section.</t>
         <li>-01 to -02: update Abstract guidance </li>
         <li>-02 to -03: updated citation section; changed list styles; added angle
       brackets to reference examples; changed I-D reference format; clarified
-      sub-series reference format; added guidance on referencing code
+      subseries reference format; added guidance on referencing code
       repositories</li>
         <li>-03 to -04: updated Reference Section guidance; added information on alt text</li>
         <li>-04 to -05: change author, add acknowledgement</li>
-	      <li>not yet posted as new version: updated description regarding how to reference RFCs that are part of a sub-series.</li>
+	      <li>not yet posted as new version: updated description regarding how to reference RFCs that are part of a subseries.</li>
       </ul>
     </section>
   </middle>
@@ -1073,7 +1073,7 @@ information in the Author's Address section.</t>
           <seriesInfo name="FYI" value="90"/>
           <seriesInfo name="RFC" value="1150"/>
           <annotation>
-          Housley, R., "Conclusion of FYI RFC Sub-Series", RFC 6360,
+          Housley, R., "Conclusion of FYI RFC SubSeries", RFC 6360,
           August 2011.
           </annotation>
         </reference>
