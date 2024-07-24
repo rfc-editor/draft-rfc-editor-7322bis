@@ -952,7 +952,8 @@ information in the Author's Address section.</t>
         <ul>
           <li>draft-flanagan-style-07 to -00: Updated authors and references.</li>
           <li>-00 to -01: Updated description regarding how to reference RFCs
-           that are part of a subseries.</li>
+           that are part of a subseries; added guidance that errata in
+           Reported state should not be referenced.</li>
         </ul>
     </section>
   </middle>
