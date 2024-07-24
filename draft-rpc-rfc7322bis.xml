@@ -33,7 +33,7 @@
     </author>
 	  
 	  
-    <date month="May" day="1" year="2023"/>
+    <date month="July" day="24" year="2023"/>
     <abstract>
       <t>This document describes the fundamental and unique style conventions
 and editorial policies currently in use for the RFC Series.  It
@@ -747,7 +747,7 @@ also later published as an RFC, then that RFC must also be listed.
             <t>[SYMBOLIC-TAG]  Last name, First initial., Ed. (if applicable)
                    and First initial. Last name, Ed. (if
                    applicable), "I-D Title", Work in Progress, Internet-Draft,
-                   draft-string-NN, Day Month Year, <https://datatracker.ietf.org/doc/html/draft-something>.
+                   draft-string-NN, Day Month Year, &lt;https://datatracker.ietf.org/doc/html/draft-something&gt;.
 </t>
             <t>Example:</t>
             <t>[RFC-STYLE] Flanagan, H. and S. Ginoza, "RFC Style Guide", Work in Progress,
