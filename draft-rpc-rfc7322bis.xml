@@ -33,7 +33,7 @@
     </author>
 	  
 	  
-    <date month="May" day="1" year="2023"/>
+    <date month="July" day="24" year="2023"/>
     <abstract>
       <t>This document describes the fundamental and unique style conventions
 and editorial policies currently in use for the RFC Series.  It
@@ -624,40 +624,40 @@ the RFC and publish both documents simultaneously.</t>
   authors in the list.</t>
             <t>For one author or editor:</t>
             <t>[RFCXXXX] Last name, First initial., Ed. (if applicable),
-             "RFC Title", Stream, Sub-series number (if applicable),
+             "RFC Title", Stream, Subseries number (if applicable),
              RFC number, RFC DOI, Date of publication,
-             <eref target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc#&gt;</eref>.</t>
+             <eref brackets="angle" target="https://www.rfc-editor.org/info/rfc#">https://www.rfc-editor.org/info/rfc#</eref>.</t>
             <t>Example:</t>
             <t>[RFC3080] Rose, M., "The Blocks Extensible Exchange
              Protocol Core," IETF, RFC 3080, DOI 10.17487/RFC3080, March 2001,
-             <eref target="https://www.rfc-editor.org/info/rfc3080">&lt;https://www.rfc-editor.org/info/rfc3080&gt;</eref>.</t>
+             <eref brackets="angle" target="https://www.rfc-editor.org/info/rfc3080">https://www.rfc-editor.org/info/rfc3080</eref>.</t>
             <t>[RFC8157] Leymann, N., Heidemann, C., Zhang, M., Sarikaya, B., and M.
              Cullen, "Huawei's GRE Tunnel Bonding Protocol", independent,
             RFC 8157, DOI 10.17487/RFC8157, May 2017,
-            <eref target="https://www.rfc-editor.org/info/rfc8157">&lt;https://www.rfc-editor.org/info/rfc8157&gt;</eref>.</t>
+            <eref brackets="angle" target="https://www.rfc-editor.org/info/rfc8157">https://www.rfc-editor.org/info/rfc8157</eref>.</t>
             <t>For two authors or editors:</t>
             <t>[RFCXXXX] Last name, First initial., Ed. (if applicable)
              and First initial. Last name, Ed. (if applicable),
-             "RFC Title", Stream, Sub-series number (if applicable),
+             "RFC Title", Stream, Subseries number (if applicable),
              RFC number, RFC DOI, Date of publication,
-             <eref target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc#&gt;</eref>.</t>
+             <eref brackets="angle" target="https://www.rfc-editor.org/info/rfc#">https://www.rfc-editor.org/info/rfc#</eref>.</t>
             <t>Example:</t>
             <t>[RFC6323] Renker, G. and G. Fairhurst, "Sender RTT
              Estimate Option for the Datagram Congestion
              Control Protocol (DCCP)", IETF, RFC 6323, DOI 10.17487/RFC6323, July 2011,
-             <eref target="https://www.rfc-editor.org/info/rfc6323">&lt;https://www.rfc-editor.org/info/rfc6323&gt;</eref>.</t>
+             <eref brackets="angle" target="https://www.rfc-editor.org/info/rfc6323">https://www.rfc-editor.org/info/rfc6323</eref>.</t>
             <t>For three or more authors or editors:</t>
             <t>[RFCXXXX] Last name, First initial., Ed. (if applicable),
              Last name, First initial., Ed. (if applicable),
              and First initial. Last name, Ed. (if applicable),
-             "RFC Title", Stream, Sub-series number (if applicable),
+             "RFC Title", Stream, Subseries number (if applicable),
              RFC number, RFC DOI, Date of publication,
-             <eref target="https://www.rfc-editor.org/info/rfc#">&lt;https://www.rfc-editor.org/info/rfc#&gt;</eref>.</t>
+             <eref brackets="angle" target="https://www.rfc-editor.org/info/rfc#">https://www.rfc-editor.org/info/rfc#</eref>.</t>
             <t>Example:</t>
             <t>[RFC6429] Bashyam, M., Jethanandani, M., and A. Ramaiah,
              "TCP Sender Clarification for Persist
              Condition", IETF, RFC 6429, DOI 10.17487/RFC6429, December 2011,
-             <eref target="https://www.rfc-editor.org/info/rfc6429">&gt;https://www.rfc-editor.org/info/rfc6429 &lt;</eref>.</t>
+             <eref brackets="angle" target="https://www.rfc-editor.org/info/rfc6429">https://www.rfc-editor.org/info/rfc6429</eref>.</t>
           </section>
           <section anchor="referencing-stds-and-bcps" toc="default">
             <name>Referencing RFC(s) in a Subseries (STDs, BCPs, and FYIs</name>
@@ -670,51 +670,69 @@ for example, the citation tag, even in cases where the sub series currently
 contains only one RFC.</t>
             <t>When an STD or BCP that contains multiple RFCs is referenced as a sub series
 group, the reference entry should include ALL of the RFCs comprising that
-sub-series in a reference grouping under a single citation tag [is it helpful to
+subseries in a reference grouping under a single citation tag [is it helpful to
 point them to 7991 or the like on how to do this here?].  The authors should
 refer to the specific RFC numbers as part of the text in the body of the
-document and cite the sub series number (for example, "see RFC 2026 of
-[BCP9]").  Inclusion of the URI to the STD or BCP info page (see Section 3.2.3
-of [RFC5741]) is recommended.  The text should appear as follows:</t>
-            <t>See RFC 1034 [STD13].</t>
+document and cite the subseries number (for example, "see RFC 2026 of
+[BCP9]").  The URI to the STD or BCP info page (see Section 3.2.3 of [RFC5741]) is to be included. The text should appear as follows:</t>
+            <t indent="3">See RFC 3552 [BCP72].</t>
             <t>For an STD or BCP that contains one RFC:</t>
-            <t>[STDXXX]  Last name, First initial., Ed. (if applicable), "RFC
-             Title", Stream, Sub-series number, RFC number, RFC DOI, Date of
-             publication, <eref target="https://www.rfc-editor.org/info/std#">&lt;https://www.rfc-editor.org/info/std#&gt;</eref>.</t>
+            <t indent="3">[STDXXX]  Internet Standard XXX,                              
+<eref brackets="angle"
+target="https://www.rfc-editor.org/info/std#">https://www.rfc-editor.org/info/std#</eref>. At the time of writing, this STD comprises the following:</t>
+<t indent="3">              Last name, First initial., Ed. (if applicable), "RFC        
+             Title", Stream, Subseries number, RFC number, RFC DOI, Date of             
+             publication, <eref brackets="angle"
+target="https://www.rfc-editor.org/info/rfc#">https://www.rfc-editor.org/info/rfc#</eref>.</t>
+
             <t>Example:</t>
-            <t>[STD72]   Gellens, R. and J. Klensin, "Message Submission
-             for Mail", IETF, STD 72, RFC 6409, DOI 10.17487/RFC6409, November 2011,
-             <eref target="https://www.rfc-editor.org/info/std72">&lt;https://www.rfc-editor.org/info/std72&gt;</eref>.</t>
+            <t indent="3">[STD80]   Internet Standard 80,                               
+              <eref brackets="angle"                                                                 
+target="https://www.rfc-editor.org/info/std80">https://www.rfc-editor.org/info/std80</eref>.                                                                           
+              At the time of writing, this STD comprises the following:</t>
+<t indent="3">                                                                          
+              Cerf, V., "ASCII format for network interchange", STD 80,                 
+              RFC 20, DOI 10.17487/RFC0020, October 1969,                               
+              <eref brackets="angle"
+target="https://www.rfc-editor.org/info/rfc20">https://www.rfc-editor.org/info/rfc20</eref>.</t>
+
             <t>For an STD or BCP that contains two or more RFCs:</t>
-            <t>[STDXXX]  Last name, First initial., Ed. (if applicable),
-             "RFC Title", Stream, Sub-series number, RFC number, RFC DOI, Date
-             of publication.</t>
-            <artwork name="" type="" align="left" alt=""><![CDATA[
-         Last name, First initial., Ed. (if applicable)
-         and First initial. Last name, Ed. (if applicable),
-         "RFC Title", Stream, Sub-series number, RFC number, RFC DOI,
-         Date of publication.
 
-         <https://www.rfc-editor.org/info/std#>
-]]></artwork>
+            <t indent="3">[BCPXXX]  Best Current Practice XXX, <eref brackets="angle"
+target="https://www.rfc-editor.org/info/bcp#">https://www.rfc-editor.org/info/bcp#</eref>.                                                                             
+            At the time of writing, this BCP comprises the following:</t>
+<t indent="3">      Last name, First initial., Ed. (if applicable),                     
+             "RFC Title", Stream, Subseries number, RFC number, RFC DOI, Date           
+             of publication, <eref brackets="angle"
+target="https://www.rfc-editor.org/info/rfc#">https://www.rfc-editor.org/info/rfc#</eref>.</t>
+<t indent="3">      Last name, First initial., Ed. (if applicable),                     
+             "RFC Title", Stream, Subseries number, RFC number, RFC DOI, Date           
+             of publication, <eref brackets="angle"
+target="https://www.rfc-editor.org/info/rfc#">https://www.rfc-editor.org/info/rfc#</eref>.</t>
+		  
             <t>Example:</t>
-<artwork name="" type="" align="left" alt=""><![CDATA[
-    [STD13]   Mockapetris, P., "Domain names - concepts and facilities", 
-              IETF, STD 13, RFC 1034, DOI 10.17487/RFC1034, November 1987.
-           
-              Mockapetris, P., "Domain names - implementation and 
-              specification", IETF, STD 13, RFC 1035, DOI 10.17487/RFC1035, 
-              November 1987.
+<t indent="3">[BCP72]    Best Current Practice 72, <eref brackets="angle"
+target="https://www.rfc-editor.org/info/bcp72">https://www.rfc-editor.org/info/bcp72</eref>.                                                                           
+              At the time of writing, this BCP comprises the following:</t>
 
-              <https://www.rfc-editor.org/info/std13>
-]]></artwork>
-            <t>Note - some RFCs contain an FYI sub-series number <xref target="FYI90" format="default"/> however, the FYI
-series was ended by RFC 6360.  RFCs that were published with an FYI sub-series
-number and still maintain the FYI number must include the sub-series number in
+<t indent="3">Rescorla, E. and B. Korver, "Guidelines for Writing RFC Text on           
+              Security Considerations", BCP 72, RFC 3552,                               
+              DOI 10.17487/RFC3552, July 2003,                                          
+              <eref brackets="angle"
+target="https://www.rfc-editor.org/info/rfc3552">https://www.rfc-editor.org/info/rfc3552</eref>.</t>
+<t indent="3">Gont, F. and I. Arce, "Security Considerations for Transient              
+              Numeric Identifiers Employed in Network Protocols", BCP 72,               
+              RFC 9416, DOI 10.17487/RFC9416, July 2023,                                
+              <eref brackets="angle"
+target="https://www.rfc-editor.org/info/rfc9416">https://www.rfc-editor.org/info/rfc9416</eref>.</t>
+
+            <t>Note - some RFCs contain an FYI subseries number <xref target="FYI90" format="default"/> however, the FYI
+series was ended by RFC 6360.  RFCs that were published with an FYI subseries
+number and still maintain the FYI number must include the subseries number in
 the reference and may otherwise be treated in the same manner as STDs and
 BCPs.</t>
             <t>Grouping references to RFCs or other materials that are not part of a
-   sub-series is discouraged.</t>
+   subseries is discouraged.</t>
           </section>
           <section anchor="referencing-internet-drafts" toc="default">
             <name>Referencing Internet-Drafts</name>
@@ -729,12 +747,12 @@ also later published as an RFC, then that RFC must also be listed.
             <t>[SYMBOLIC-TAG]  Last name, First initial., Ed. (if applicable)
                    and First initial. Last name, Ed. (if
                    applicable), "I-D Title", Work in Progress, Internet-Draft,
-                   draft-string-NN, Day Month Year, https://datatracker.ietf.org/doc/html/draft-something.
+                   draft-string-NN, Day Month Year, &lt;https://datatracker.ietf.org/doc/html/draft-something&gt;.
 </t>
             <t>Example:</t>
             <t>[RFC-STYLE] Flanagan, H. and S. Ginoza, "RFC Style Guide", Work in Progress,
                Internet-Draft, draft-flanagan-style-04,
-               27 September 2019, https://datatracker.ietf.org/doc/html/draft-flanagan-style-04.
+               27 September 2019, &lt;https://datatracker.ietf.org/doc/html/draft-flanagan-style-04&gt;.
 </t>
           </section>
           <section anchor="referencing-errata" toc="default">
@@ -761,18 +779,18 @@ standard from another SDO in which authors are listed:</t>
             <t>[SYMBOLIC-TAG]
             </t>
             <ul empty="true" spacing="normal">
-              <li> Last name, First initial. and First initial. Last name,</li>
-              <li> "Document Title", Document reference number, Date of </li>
-              <li> publication, &lt;URI if available&gt;.</li>
+              <li>Last name, First initial. and First initial. Last name,
+              "Document Title", Document reference number, Date of
+              publication, &lt;URI if available&gt;.</li>
             </ul>
             <t>[W3C.REC-xml11]
             </t>
             <ul empty="true" spacing="normal">
-              <li> Bray, T., Paoli, J., Sperberg-McQueen, C., Maler, E.,</li>
-              <li> Yergeau, F., and J.  Cowan, "Extensible Markup Language</li>
-              <li> (XML) 1.1 (Second Edition)", W3C Recommendation</li>
-              <li> REC-xml11-20060816, August 2006, </li>
-              <li> &lt;https://www.w3.org/TR/2006/REC-xml11-20060816&gt;.</li>
+              <li> Bray, T., Paoli, J., Sperberg-McQueen, C., Maler, E.,
+              Yergeau, F., and J.  Cowan, "Extensible Markup Language
+              (XML) 1.1 (Second Edition)", W3C Recommendation
+              REC-xml11-20060816, August 2006,
+              &lt;https://www.w3.org/TR/2006/REC-xml11-20060816&gt;.</li>
             </ul>
             <t>The order of authors in the list is the same as the order
 shown on the actual document and that the common, abbreviated form of
@@ -919,10 +937,11 @@ information in the Author's Address section.</t>
         <li>-01 to -02: update Abstract guidance </li>
         <li>-02 to -03: updated citation section; changed list styles; added angle
       brackets to reference examples; changed I-D reference format; clarified
-      sub-series reference format; added guidance on referencing code
+      subseries reference format; added guidance on referencing code
       repositories</li>
         <li>-03 to -04: updated Reference Section guidance; added information on alt text</li>
         <li>-04 to -05: change author, add acknowledgement</li>
+	      <li>not yet posted as new version: updated description regarding how to reference RFCs that are part of a subseries.</li>
       </ul>
     </section>
   </middle>
