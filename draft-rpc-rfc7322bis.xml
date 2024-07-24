@@ -930,19 +930,29 @@ information in the Author's Address section.</t>
       <name>Change Log</name>
       <t>This section to be removed before publication.
       </t>
-      <ul empty="true" spacing="normal">
-        <li>-00 to -01: Citation tag requirements more tightly specified; index
-      moved; new errata URI added; capitalization of working/research group
-      specified</li>
-        <li>-01 to -02: update Abstract guidance </li>
-        <li>-02 to -03: updated citation section; changed list styles; added angle
+      <t>Changes in draft-flanagan-style:</t>
+      <ul spacing="normal">
+        <li>RFC 7322 to -00: Removed requirement for two spaces after a period;
+        clarified citation tag requirements; added guidance on avoiding RFCs as
+        compounds; and added guidance on figures.</li>
+        <li>-00 to -01: Moved placement of the Index; added
+        new errata URI; specified capitalization of working/research group.</li>
+        <li>-01 to -02: Updated Abstract guidance.</li>
+        <li>-02 to -03: Updated citation section; changed list styles; added angle
       brackets to reference examples; changed I-D reference format; clarified
       subseries reference format; added guidance on referencing code
-      repositories</li>
-        <li>-03 to -04: updated Reference Section guidance; added information on alt text</li>
-        <li>-04 to -05: change author, add acknowledgement</li>
-	      <li>not yet posted as new version: updated description regarding how to reference RFCs that are part of a subseries.</li>
+      repositories.</li>
+        <li>-03 to -04: Updated Reference Section guidance; added information on alt text.</li>
+        <li>-04 to -05: Changed author, added acknowledgement.</li>
+        <li>-05 to -06: Put URLs inline.</li>
+        <li>-06 to -07: Added DOI information.</li>
       </ul>
+      <t>Changes to draft-rpc-rfc7322bis:</t>
+        <ul>
+          <li>draft-flanagan-style-07 to -00: Updated authors and references.</li>
+          <li>-00 to -01: Updated description regarding how to reference RFCs
+           that are part of a subseries.</li>
+        </ul>
     </section>
   </middle>
   <back>
