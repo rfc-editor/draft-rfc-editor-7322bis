@@ -954,6 +954,9 @@ information in the Author's Address section.</t>
           <li>-00 to -01: Updated description regarding how to reference RFCs
            that are part of a subseries; added guidance that errata in
            Reported state should not be referenced.</li>
+           <li>-01 to -02: Clarified that an author may change their name on
+           subsequent RFCs; clarified the example of avoiding the use of a
+           citation in a compound.</li>
         </ul>
     </section>
   </middle>
