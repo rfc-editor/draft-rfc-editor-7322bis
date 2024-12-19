@@ -260,7 +260,7 @@ may change per format and device.</li>
       <section anchor="abbreviation-rules" toc="default">
         <name>Abbreviation Rules</name>
         <t>Abbreviations should be expanded in document titles and upon first
-use in the document.  It may be appropriate to include an Abbreviations or Terminology section if the document introduces abbreviations and concepts that are relied on heavily throughout the document. Note that abbreviations should be still be expanded in the body of the document if "first use" appears prior to the Abbeviations/Terminology section.  the The full expansion of the text should be
+use in the document.  It may be appropriate to include an Abbreviations or Terminology section if the document introduces abbreviations and concepts that are relied on heavily throughout the document. Note that abbreviations should be still be expanded in the body of the document if "first use" appears prior to the Abbeviations/Terminology section.  The full expansion of the text should be
 followed by the abbreviation itself in parentheses.  The exception is
 an abbreviation that is so common that the readership of RFCs can be
 expected to recognize it immediately; examples include (but are not
