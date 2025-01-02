@@ -460,8 +460,8 @@ result in an Abstract that is overly long, incomplete, and redundant.</t>
         <t>  An Abstract is not a substitute for an Introduction; the RFC should be
 self-contained as if there were no Abstract. Similarly, the Abstract should be
 complete in itself.  Given that the Abstract will appear independently in
-announcements and indices, mentions of other RFCs within the Abstract should
-include both an RFC number and either the full or short title.  Any  documents
+announcements and indices, uncommon abbreviations should be expanded, and mentions of other RFCs within the Abstract should
+include both an RFC number and either the full or short title.  It should not include in-text citations or refer to sections within the document. Any documents
 that are Updated or Obsoleted by the RFC must be mentioned in the  Abstract if those
 documents offer important provisions of, or reasons for, the RFC.
 These may be presented in a list format if that improves readability.</t>
